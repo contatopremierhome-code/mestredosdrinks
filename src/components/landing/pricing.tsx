@@ -34,7 +34,7 @@ const Pricing = () => {
             </CardHeader>
             <CardContent className="p-8 sm:p-10 flex-1">
               <div className="text-center mb-8">
-                <p className="text-xl text-muted-foreground line-through">De R$147,00</p>
+                <p className="text-xl text-muted-foreground line-through">De R$97,00</p>
                 <div className="flex items-center justify-center gap-2 mt-2">
                   <span className="text-sm">Por apenas</span>
                   <span className="text-6xl font-extrabold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-400">R$9,90</span>
