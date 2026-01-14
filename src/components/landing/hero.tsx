@@ -4,7 +4,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Link from 'next/link';
 
 const Hero = () => {
-  const heroImage = PlaceHolderImages.find((p) => p.id === 'hero-cocktail');
+  const heroImage = PlaceHolderImages.find((p) => p.id === 'hero-cocktail-video');
 
   return (
     <section id="hero" className="relative pt-20">
@@ -19,7 +19,7 @@ const Hero = () => {
               Domine mais de 500 receitas de coquetéis profissionais com ingredientes simples que você já tem em casa. Não precisa de equipamento chique ou ser um expert em bebidas.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 lg:justify-start">
-              <Button asChild size="lg" className="h-14 text-lg w-full sm:w-auto hidden md:inline-flex">
+              <Button asChild size="lg" className="h-14 text-base md:text-lg w-full sm:w-auto">
                 <Link href="https://www.ggcheckout.com/checkout/v2/VU1EHbdkknKfUXU3JXCx">Comece Agora</Link>
               </Button>
             </div>

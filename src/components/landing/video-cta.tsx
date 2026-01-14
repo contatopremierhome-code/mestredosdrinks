@@ -10,7 +10,7 @@ const VideoCta = () => {
         </h2>
         <div className="relative max-w-4xl mx-auto rounded-xl overflow-hidden shadow-2xl shadow-primary/20">
           <video
-            src="https://i.imgur.com/DorAhjm.mp4"
+            src="https://i.imgur.com/pNEb25g.gif"
             autoPlay
             loop
             muted
@@ -20,7 +20,7 @@ const VideoCta = () => {
           <div className="absolute inset-0 bg-black/30"></div>
         </div>
         <div className="mt-10">
-           <Button asChild size="lg" className="h-16 text-lg sm:text-xl font-bold">
+           <Button asChild size="lg" className="h-16 text-base md:text-xl font-bold">
                 <Link href="https://www.ggcheckout.com/checkout/v2/VU1EHbdkknKfUXU3JXCx">QUERO ACESSO IMEDIATO POR R$9,90</Link>
             </Button>
         </div>

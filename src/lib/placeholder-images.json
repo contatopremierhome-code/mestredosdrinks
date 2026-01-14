@@ -1,10 +1,10 @@
 {
   "placeholderImages": [
     {
-      "id": "hero-cocktail",
+      "id": "hero-cocktail-video",
       "description": "A vibrant, colorful cocktail with condensation and fresh garnish.",
-      "imageUrl": "https://i.imgur.com/pNEb25g.gif",
-      "imageHint": "vibrant cocktail"
+      "imageUrl": "https://i.imgur.com/DorAhjm.mp4",
+      "imageHint": "cocktail video"
     },
     {
       "id": "mojito",
