@@ -28,7 +28,7 @@ const Bonuses = () => {
           {bonuses.map((bonus) => {
             const image = PlaceHolderImages.find(p => p.id === bonus.id);
             return (
-              <div key={bonus.title} className="text-center">
+              <div key={bonus.title}>
                 <div className="relative inline-block">
                   {image && (
                     <Image

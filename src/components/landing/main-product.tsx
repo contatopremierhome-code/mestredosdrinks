@@ -20,14 +20,16 @@ const MainProduct = () => {
         
         <div className="flex justify-center items-center flex-col">
             {image && (
-                <Image
-                    src={image.imageUrl}
-                    alt={image.description}
-                    width={800}
-                    height={600}
-                    className="rounded-lg shadow-2xl mx-auto mb-10 transform transition-transform duration-300 hover:scale-105"
-                    data-ai-hint={image.imageHint}
-                />
+                 <div className="relative">
+                    <Image
+                        src={image.imageUrl}
+                        alt={image.description}
+                        width={800}
+                        height={600}
+                        className="rounded-lg shadow-2xl mx-auto mb-10 transform transition-transform duration-300 hover:scale-105"
+                        data-ai-hint={image.imageHint}
+                    />
+                </div>
             )}
         </div>
 
