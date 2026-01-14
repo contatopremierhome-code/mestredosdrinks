@@ -1,15 +1,17 @@
+import dynamic from 'next/dynamic';
 import Header from '@/components/landing/header';
 import Hero from '@/components/landing/hero';
-import RecipeShowcase from '@/components/landing/recipe-showcase';
-import Pricing from '@/components/landing/pricing';
-import Bonuses from '@/components/landing/bonuses';
-import Faq from '@/components/landing/faq';
-import StickyCta from '@/components/landing/sticky-cta';
 import Footer from '@/components/landing/footer';
-import Testimonials from '@/components/landing/testimonials';
-import MainProduct from '@/components/landing/main-product';
-import RecipePreview from '@/components/landing/recipe-preview';
-import VideoCta from '@/components/landing/video-cta';
+
+const RecipeShowcase = dynamic(() => import('@/components/landing/recipe-showcase'));
+const Pricing = dynamic(() => import('@/components/landing/pricing'));
+const Bonuses = dynamic(() => import('@/components/landing/bonuses'));
+const Faq = dynamic(() => import('@/components/landing/faq'));
+const StickyCta = dynamic(() => import('@/components/landing/sticky-cta'));
+const Testimonials = dynamic(() => import('@/components/landing/testimonials'));
+const MainProduct = dynamic(() => import('@/components/landing/main-product'));
+const RecipePreview = dynamic(() => import('@/components/landing/recipe-preview'));
+const VideoCta = dynamic(() => import('@/components/landing/video-cta'));
 
 export default function Home() {
   return (
