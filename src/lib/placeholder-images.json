@@ -3,8 +3,14 @@
     {
       "id": "hero-cocktail-video",
       "description": "A vibrant, colorful cocktail with condensation and fresh garnish.",
-      "imageUrl": "https://i.imgur.com/DorAhjm.mp4",
+      "imageUrl": "https://i.imgur.com/pNEb25g.mp4",
       "imageHint": "cocktail video"
+    },
+    {
+      "id": "final-cta-gif",
+      "description": "A vibrant, colorful cocktail with condensation and fresh garnish.",
+      "imageUrl": "https://i.imgur.com/DorAhjm.gif",
+      "imageHint": "cocktail gif"
     },
     {
       "id": "mojito",

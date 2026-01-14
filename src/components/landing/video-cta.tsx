@@ -1,7 +1,10 @@
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 import Link from 'next/link';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const VideoCta = () => {
+    const finalCtaImage = PlaceHolderImages.find((p) => p.id === 'final-cta-gif');
   return (
     <section id="video-cta" className="py-16 sm:py-24 bg-slate-900/50">
       <div className="container mx-auto px-4 text-center">
@@ -9,14 +12,17 @@ const VideoCta = () => {
           Sua Jornada Começa Agora
         </h2>
         <div className="relative max-w-4xl mx-auto rounded-xl overflow-hidden shadow-2xl shadow-primary/20">
-          <video
-            src="https://i.imgur.com/pNEb25g.gif"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover"
-          />
+          {finalCtaImage && (
+            <Image
+                src={finalCtaImage.imageUrl}
+                alt={finalCtaImage.description}
+                width={800}
+                height={450}
+                className="w-full h-full object-cover"
+                data-ai-hint={finalCtaImage.imageHint}
+                unoptimized
+            />
+          )}
           <div className="absolute inset-0 bg-black/30"></div>
         </div>
         <div className="mt-10">
