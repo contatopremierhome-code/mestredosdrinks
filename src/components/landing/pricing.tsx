@@ -1,4 +1,4 @@
-import { CheckCircle2, BookOpenCheck, PartyPopper, ShieldCheck } from 'lucide-react';
+import { CheckCircle2, BookOpenCheck, PartyPopper, ShieldCheck, Lock, Award, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import Link from 'next/link';
@@ -12,11 +12,22 @@ const features = [
     icon: PartyPopper,
     text: 'Manual de Como Criar seu Mini Bar de Drinks em Casa (Bônus)',
   },
-  {
-    icon: ShieldCheck,
-    text: 'Acesso Vitalício e Atualizações Futuras Gratuitas',
-  },
 ];
+
+const checkoutBadges = [
+    {
+        icon: Lock,
+        text: 'Pagamento Seguro'
+    },
+    {
+        icon: Award,
+        text: 'Garantia 7 Dias'
+    },
+    {
+        icon: Download,
+        text: 'Acesso Imediato'
+    }
+]
 
 const Pricing = () => {
   return (
@@ -51,7 +62,15 @@ const Pricing = () => {
                 ))}
               </ul>
             </CardContent>
-            <CardFooter className="p-6 bg-card/80 border-t border-border">
+            <CardFooter className="p-6 bg-card/80 border-t border-border flex-col items-center">
+             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 w-full mb-6">
+                {checkoutBadges.map((badge) => (
+                    <div key={badge.text} className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <badge.icon className="h-5 w-5 text-primary"/>
+                        <span>{badge.text}</span>
+                    </div>
+                ))}
+            </div>
               <Button asChild size="lg" className="w-full h-16 text-base md:text-xl font-bold">
                 <Link href="https://www.ggcheckout.com/checkout/v2/VU1EHbdkknKfUXU3JXCx">QUERO ACESSO IMEDIATO POR R$9,90</Link>
               </Button>

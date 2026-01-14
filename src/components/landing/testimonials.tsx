@@ -10,12 +10,12 @@ const testimonials = [
     avatarId: 'avatar-4',
   },
   {
-    quote: "Comprei o pacote pro e a quantidade de receitas é incrível. As atualizações vitalícias são um bônus fantástico. Já economizei muito dinheiro fazendo meus próprios coquetéis.",
+    quote: "Comprei e a quantidade de receitas é incrível. Já economizei muito dinheiro fazendo meus próprios coquetéis.",
     name: 'Ricardo M.',
     avatarId: 'avatar-2',
   },
   {
-    quote: 'Eu era um completo iniciante, mas com o guia "Iniciante", já estou impressionando meus amigos. As instruções são claras e os ingredientes fáceis de encontrar. Recomendo!',
+    quote: 'Eu era um completo iniciante, mas com o guia já estou impressionando meus amigos. As instruções são claras e os ingredientes fáceis de encontrar. Recomendo!',
     name: 'Francisco L.',
     avatarId: 'avatar-3',
   },
@@ -30,7 +30,7 @@ const Testimonials = () => {
            ⭐ O Que Dizem Nossos Clientes
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            4.9/5 • 3.500+ avaliações
+            4.9/5 • 3.500+ compras
           </p>
         </div>
 

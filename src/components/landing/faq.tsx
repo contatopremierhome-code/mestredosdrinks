@@ -12,11 +12,15 @@ const faqs = [
   },
   {
     question: 'Preciso de ferramentas profissionais?',
-    answer: "De jeito nenhum. Nosso guia é feito para bartenders caseiros. Mostramos como usar itens de cozinha comuns para criar coquetéis incríveis. O bônus 'Bar em Casa em 5 Minutos' também mostra as únicas ferramentas acessíveis que você talvez queira considerar.",
+    answer: "De jeito nenhum. Nosso guia é feito para bartenders caseiros. Mostramos como usar itens de cozinha comuns para criar coquetéis incríveis. O bônus 'Manual de Como Criar seu Mini Bar de Drinks em Casa' também mostra as únicas ferramentas acessíveis que você talvez queira considerar.",
   },
   {
-    question: 'O acesso é vitalício?',
-    answer: 'Sim! Você paga uma vez e tem acesso vitalício a todos os materiais, incluindo todas as futuras atualizações e novas adições de receitas ao Pacote Pro. Sem assinaturas, sem taxas ocultas.',
+    question: 'Por que o preço é tão baixo?',
+    answer: 'Acreditamos em democratizar o conhecimento. Nosso objetivo é levar a arte da coquetelaria para o maior número de pessoas possível, por isso oferecemos um preço acessível a todos.',
+  },
+  {
+    question: 'E se eu não gostar? Qual a garantia?',
+    answer: 'Sim! Oferecemos garantia incondicional de 7 dias. Se por qualquer motivo você não ficar satisfeito, devolvemos 100% do seu dinheiro, sem perguntas.',
   },
   {
     question: 'Posso ver no meu celular?',
