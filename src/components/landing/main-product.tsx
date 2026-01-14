@@ -29,9 +29,6 @@ const MainProduct = () => {
                     data-ai-hint={image.imageHint}
                 />
             )}
-            <Button asChild size="lg" className="h-14 text-base md:text-lg">
-                <Link href="https://www.ggcheckout.com/checkout/v2/VU1EHbdkknKfUXU3JXCx">QUERO MEU GUIA AGORA!</Link>
-            </Button>
         </div>
 
       </div>
