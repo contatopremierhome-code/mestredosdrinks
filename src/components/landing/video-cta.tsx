@@ -29,7 +29,7 @@ const VideoCta = () => {
           📖 Drinks Profissionais e Luxuosos
         </p>
         <div className="mt-8">
-           <Button asChild size="lg" className="h-16 text-base md:text-xl font-bold">
+           <Button asChild size="lg" className="w-full sm:w-auto h-16 text-base md:text-xl font-bold">
                 <Link href="https://www.ggcheckout.com/checkout/v2/VU1EHbdkknKfUXU3JXCx">QUERO ACESSO IMEDIATO POR R$9,90</Link>
             </Button>
         </div>
