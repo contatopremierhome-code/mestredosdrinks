@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button';
-import Image from 'next/image';
 import Link from 'next/link';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
@@ -13,14 +12,13 @@ const VideoCta = () => {
         </h2>
         <div className="relative max-w-4xl mx-auto rounded-xl overflow-hidden shadow-2xl shadow-primary/20">
           {finalCtaImage && (
-            <Image
+            <video
                 src={finalCtaImage.imageUrl}
-                alt={finalCtaImage.description}
-                width={800}
-                height={450}
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="w-full h-full object-cover"
-                data-ai-hint={finalCtaImage.imageHint}
-                unoptimized
             />
           )}
           <div className="absolute inset-0 bg-black/30"></div>
@@ -39,3 +37,5 @@ const VideoCta = () => {
 };
 
 export default VideoCta;
+
+    
