@@ -18,11 +18,6 @@ const Hero = () => {
             <p className="mt-6 max-w-2xl mx-auto lg:mx-0 text-lg text-muted-foreground sm:text-xl">
               Domine mais de 500 receitas de coquetéis profissionais com ingredientes simples que você já tem em casa. Não precisa de equipamento chique ou ser um expert em bebidas.
             </p>
-            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 lg:justify-start">
-              <Button asChild size="lg" className="h-14 text-base md:text-lg w-full sm:w-auto">
-                <Link href="https://www.ggcheckout.com/checkout/v2/VU1EHbdkknKfUXU3JXCx">Comece Agora</Link>
-              </Button>
-            </div>
           </div>
           <div className="flex justify-center">
             {heroImage && (
