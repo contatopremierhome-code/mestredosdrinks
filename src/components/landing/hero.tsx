@@ -21,13 +21,12 @@ const Hero = () => {
             {heroImage && (
               <div className="relative w-full max-w-sm lg:max-w-md">
                 <div className="absolute -inset-4 rounded-full bg-gradient-to-br from-primary via-orange-500 to-fuchsia-500 opacity-20 blur-3xl"></div>
-                <Image
+                 <video
                   src={heroImage.imageUrl}
-                  alt={heroImage.description}
-                  width={600}
-                  height={600}
-                  unoptimized
-                  priority
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   className="relative rounded-3xl shadow-2xl w-full h-full object-cover"
                 />
               </div>
@@ -40,4 +39,3 @@ const Hero = () => {
 };
 
 export default Hero;
-    

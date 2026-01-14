@@ -3,14 +3,14 @@
     {
       "id": "hero-cocktail-video",
       "description": "A vibrant, colorful cocktail with condensation and fresh garnish.",
-      "imageUrl": "https://i.imgur.com/pNEb25g.gif",
-      "imageHint": "cocktail gif"
+      "imageUrl": "https://i.imgur.com/DorAhjm.mp4",
+      "imageHint": "cocktail video"
     },
     {
       "id": "final-cta-gif",
       "description": "A vibrant, colorful cocktail with condensation and fresh garnish.",
-      "imageUrl": "https://i.imgur.com/DorAhjm.mp4",
-      "imageHint": "cocktail video"
+      "imageUrl": "https://i.imgur.com/pNEb25g.gif",
+      "imageHint": "cocktail gif"
     },
     {
       "id": "mojito",
@@ -117,7 +117,7 @@
     {
       "id": "dark-knight",
       "description": "Dark Knight",
-      "imageUrl": "https://images.unsplash.com/photo-1694021256251-ca1607500703?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkYXJrJTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MjU5NzgzfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1694021256251-ca1607500703?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkYXJrJTIwY29ja3RhaWx8ZW58MHx8fHwxNzY4MjU5NzgzfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "dark cocktail"
     },
     {
