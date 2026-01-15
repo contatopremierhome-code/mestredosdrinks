@@ -40,8 +40,21 @@ export default function RootLayout({
               s.parentNode.insertBefore(t,s)}(window, document,'script',
               'https://connect.facebook.net/en_US/fbevents.js');
               fbq('init', '2672206122872429');
-              fbq('init', '902096692069775');
               fbq('track', 'PageView');
+            `,
+          }}
+        />
+        <Script
+          id="utmify-pixel"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.pixelId = "6968dcb154e1c93670f981ce";
+              var a = document.createElement("script");
+              a.setAttribute("async", "");
+              a.setAttribute("defer", "");
+              a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+              document.head.appendChild(a);
             `,
           }}
         />
@@ -57,9 +70,6 @@ export default function RootLayout({
         <noscript>
           <img height="1" width="1" style={{display: 'none'}}
                src="https://www.facebook.com/tr?id=2672206122872429&ev=PageView&noscript=1"
-          />
-          <img height="1" width="1" style={{display: 'none'}}
-               src="https://www.facebook.com/tr?id=902096692069775&ev=PageView&noscript=1"
           />
         </noscript>
         {children}
